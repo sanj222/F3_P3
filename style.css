@@ -1,0 +1,110 @@
+*{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+header p{
+    font-weight: 200;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+#right{
+    display: flex;
+    gap:30px;
+}
+#right a{
+    font-weight: 200;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#signup-container{
+    width: 50vw;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+h1{
+    font-weight: 200;
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+input{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 0;;
+    border-bottom: 1px solid white;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    padding: 10px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#info{
+    margin: auto;
+    width: fit-content;
+    margin-top: 100px;
+}
+
+#info p{
+    font-weight: 400;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+span{
+    font-weight: 300;
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+#extra{
+    display:none;
+    font-weight: 100;
+    font-size: 20px;
+    color: red;
+}
+
+#logout{
+   width: fit-content;
+   margin: auto;
+   margin-top: 30px;
+}
+
+#success-msg{
+    font-weight: 100;
+    font-size: 24px;
+    color: green;
+    margin-left: 20px;
+}
